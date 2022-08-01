@@ -1,0 +1,32 @@
+name: flutter_mvvm_trial
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  cupertino_icons: ^1.0.2
+  # Stacked
+  stacked: ^2.3.15
+  stacked_services: ^0.9.3
+  build_runner: ^2.2.0
+  http: ^0.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^2.0.0
+  stacked_generator: ^0.7.13
+
+
+flutter:
+  uses-material-design: true
