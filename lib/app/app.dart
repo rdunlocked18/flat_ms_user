@@ -1,9 +1,10 @@
-import '../screens/homeScreen/home_screen_view.dart';
-import '../screens/secondScreen/second_screen_view.dart';
-import 'package:stacked/stacked.dart';
+import '../screens/adminPanel/admin_screen_view.dart';
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
 
+import '../screens/authenticationScreen/authentication_screen_view.dart';
+import '../screens/navigationScreen/navigation_screen_view.dart';
+import '../screens/onboardingScreen/onboarding_screen_view.dart';
 import '../services/counter_service.dart';
 import '../services/product_service.dart';
 
@@ -11,11 +12,10 @@ import '../services/product_service.dart';
 
 @StackedApp(
   routes: [
-    CustomRoute(page: HomeScreenView, initial: true),
-    CustomRoute(
-        page: SecondScreenView,
-        transitionsBuilder: TransitionsBuilders.moveInLeft,
-        durationInMilliseconds: 300)
+    CustomRoute(page: AdminScreenView, initial: true),
+    CustomRoute(page: OnboardingScreenView),
+    CustomRoute(page: AuthenticationScreenView),
+    CustomRoute(page: NavigationScreenView),
   ],
   dependencies: [
     LazySingleton(classType: NavigationService),

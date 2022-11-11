@@ -1,6 +1,6 @@
 import 'package:stacked/stacked.dart';
 
-class ProductScreenViewModel extends BaseViewModel {
+class OnboardingScreenViewModel extends BaseViewModel {
   void initialize() {}
 
   @override
