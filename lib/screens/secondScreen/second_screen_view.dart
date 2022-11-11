@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm_trial/screens/secondScreen/widgets/list_view_single_row.dart';
+import 'widgets/list_view_single_row.dart';
 import 'package:stacked/stacked.dart';
 import './second_screen_view_model.dart';
 

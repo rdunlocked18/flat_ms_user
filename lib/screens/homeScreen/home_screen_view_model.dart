@@ -1,5 +1,4 @@
-import 'package:flutter_mvvm_trial/utils/app.locator.dart';
-import 'package:flutter_mvvm_trial/utils/app.router.dart';
+import '../../app/app.locator.dart';
 // import 'package:flutter_mvvm_trial/utils/app.router.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
@@ -21,16 +20,5 @@ class HomeScreenViewModel extends BaseViewModel {
     setBusy(false);
   }
 
-  void onPressed() {
-    // counterValue = counterLoc.increment();
-
-    // // snackbarService.showSnackbar(
-    // //   title: 'Helloooooo',
-    // //   message: 'Value is : $counterValue',
-    // // );'
-
-    //snackbarService.showConfirmationDialog(title: 'hello');
-    // notifyListeners();
-    // loc.navigateToSecondScreenView();
-  }
+  void onPressed() {}
 }

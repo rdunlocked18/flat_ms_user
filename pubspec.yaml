@@ -15,7 +15,7 @@ dependencies:
   
   cupertino_icons: ^1.0.2
   # Stacked
-  stacked: ^2.3.15
+  stacked: ^3.0.0
   stacked_services: ^0.9.3
   build_runner: ^2.2.0
   http: ^0.13.4
@@ -25,7 +25,7 @@ dev_dependencies:
     sdk: flutter
     
   flutter_lints: ^2.0.0
-  stacked_generator: ^0.7.13
+  stacked_generator: ^0.8.0+1
 
 
 flutter:

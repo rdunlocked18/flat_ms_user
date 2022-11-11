@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_mvvm_trial/model/product.dart';
+import '../model/product.dart';
 import 'package:http/http.dart' as http;
 
 class ProductService {
@@ -26,8 +26,5 @@ class ProductService {
     } else {
       return [];
     }
-    // List<Product>? s = [Product.fromJson(res.body as Map<String, dynamic>)];
-    // print(s.first.id);
-    // return s;
   }
 }

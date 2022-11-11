@@ -1,5 +1,5 @@
-import 'package:flutter_mvvm_trial/screens/homeScreen/home_screen_view.dart';
-import 'package:flutter_mvvm_trial/screens/secondScreen/second_screen_view.dart';
+import '../screens/homeScreen/home_screen_view.dart';
+import '../screens/secondScreen/second_screen_view.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
